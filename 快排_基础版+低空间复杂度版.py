@@ -112,10 +112,16 @@ def partition(arr, left, right):
     # 返回基准值的最终位置
     return i + 1
 
+# 测试示例
 if __name__ == "__main__":
-    print("=" * 60)
-    print("1. 快速排序测试")
-    print("=" * 60)
-    test_arr = [3, 6, 8, 10, 1, 2, 1]
-    print(f"原始数组: {test_arr}")
-    print(f"基本快排: {quick_sort_basic(test_arr)}")
+    # 测试基础版本
+    test_arr1 = [64, 34, 25, 12, 22, 11, 90]
+    print("原始数组:", test_arr1)
+    sorted_arr1 = quick_sort_basic(test_arr1)
+    print("基础版本排序后:", sorted_arr1)
+    
+    # 测试原地版本
+    test_arr2 = [64, 34, 25, 12, 22, 11, 90]
+    print("\n原始数组:", test_arr2)
+    quick_sort_inplace(test_arr2)
+    print("原地版本排序后:", test_arr2)
