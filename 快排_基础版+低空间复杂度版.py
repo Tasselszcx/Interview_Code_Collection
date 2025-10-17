@@ -114,6 +114,9 @@ def partition(arr, left, right):
 
 # 测试示例
 if __name__ == "__main__":
+    print("\n" + "=" * 60)
+    print("1. 快速排序测试")
+    print("=" * 60)
     # 测试基础版本
     test_arr1 = [64, 34, 25, 12, 22, 11, 90]
     print("原始数组:", test_arr1)
