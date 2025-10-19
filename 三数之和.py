@@ -26,6 +26,7 @@ def three_sum(nums):
     返回：
         所有和为0的不重复三元组列表
     """
+
     # 结果列表
     result = []
     
@@ -92,3 +93,60 @@ def three_sum(nums):
                 right -= 1
     
     return result
+
+
+def test_three_sum():
+    """测试三数之和函数"""
+    print("=" * 70)
+    print("三数之和 - 测试")
+    print("=" * 70)
+    
+    # 测试用例1：基本情况
+    print("\n测试用例1：基本情况")
+    nums1 = [-1, 0, 1, 2, -1, -4]
+    print(f"输入: {nums1}")
+    result1 = three_sum(nums1)
+    print(f"输出: {result1}")
+    print(f"预期: [[-1, -1, 2], [-1, 0, 1]]")
+    
+    # 测试用例2：空数组
+    print("\n测试用例2：空数组")
+    nums2 = []
+    print(f"输入: {nums2}")
+    result2 = three_sum(nums2)
+    print(f"输出: {result2}")
+    print(f"预期: []")
+    
+    # 测试用例3：无解
+    print("\n测试用例3：无解")
+    nums3 = [1, 2, 3]
+    print(f"输入: {nums3}")
+    result3 = three_sum(nums3)
+    print(f"输出: {result3}")
+    print(f"预期: []")
+    
+    # 测试用例4：全是0
+    print("\n测试用例4：全是0")
+    nums4 = [0, 0, 0, 0]
+    print(f"输入: {nums4}")
+    result4 = three_sum(nums4)
+    print(f"输出: {result4}")
+    print(f"预期: [[0, 0, 0]]")
+    
+    # 测试用例5：有重复元素
+    print("\n测试用例5：有重复元素")
+    nums5 = [-2, 0, 0, 2, 2]
+    print(f"输入: {nums5}")
+    result5 = three_sum(nums5)
+    print(f"输出: {result5}")
+    print(f"预期: [[-2, 0, 2]]")
+    
+    # 测试用例6：较大数组
+    print("\n测试用例6：较大数组")
+    nums6 = [-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6]
+    print(f"输入: {nums6}")
+    result6 = three_sum(nums6)
+    print(f"输出: {result6}")
+
+if __name__ == "__main__":
+    test_three_sum()
