@@ -19,11 +19,10 @@
 """
 
 from collections import deque
-import heapq
 
 def max_sliding_window_monotonic_queue(nums, k):
     """
-    方法一：单调队列法（最优解）
+    单调队列法（最优解）
     
     思路：
     1. 使用双端队列存储可能成为最大值的元素索引
