@@ -27,19 +27,6 @@ def spiral_order_simulation(matrix):
     优势：逻辑清晰，空间效率高
     劣势：需要处理多个边界条件
     """
-def spiral_order_simulation(matrix):
-    """
-    方法一：边界模拟法（最优解）
-    
-    思路：
-    1. 定义四个边界：上、下、左、右
-    2. 按照右→下→左→上的顺序遍历
-    3. 每完成一个方向后调整边界
-    4. 当边界相遇时结束遍历
-    
-    优势：逻辑清晰，空间效率高
-    劣势：需要处理多个边界条件
-    """
     # 空集合直接输出即可
     if not matrix or not matrix[0]:
         return []
