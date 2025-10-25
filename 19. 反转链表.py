@@ -34,7 +34,6 @@ def reverse_list_iterative(head):
     
     return prev
 
-
 def reverse_list_dummy(head):
     """
     方法二：头插法（使用哑节点）
