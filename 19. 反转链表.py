@@ -57,7 +57,6 @@ def reverse_list_dummy(head):
     
     return dummy.next
 
-
 def create_linked_list(arr):
     """根据数组创建链表"""
     if not arr:
