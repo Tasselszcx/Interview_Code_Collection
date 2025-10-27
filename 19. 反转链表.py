@@ -83,7 +83,6 @@ def linked_list_to_list(head):
     
     return result
 
-
 def test_reverse_list():
     """测试函数：验证链表反转算法"""
     test_cases = [
