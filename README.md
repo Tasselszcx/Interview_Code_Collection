@@ -11,7 +11,7 @@
 3.  完整的代码及注释，可读性极强
 4.  每个代码都有测试用例，可以直接运行
 
-## 最后，我所有的算法都会上传到此repo，持续更新中
-### Github链接如下：https://github.com/Tasselszcx/Interview_Code_Collection
+## 最后，我所有的算法都会上传到此repo，持续更新中~
+## Github链接如下：https://github.com/Tasselszcx/Interview_Code_Collection
 
 ### 希望通过这个系列，帮助大家在秋招中取得理想的offer！同时也欢迎平常拿这个系列中的习题来练手，如果觉得有帮助，欢迎给GitHub仓库点个⭐️，也欢迎提出宝贵意见和建议。
